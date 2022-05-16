@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView
+    android:id="@+id/txtTitulo"
+    android:text="Digite os valores:"
+    android:textSize="30dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_center" />
+<EditText
+    android:id="@+id/edt01"
+    android:inputType="number"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="200dp"
+    android:layout_height="wrap_center" />
+<EditText
+    android:id="@+id/edt02"
+    android:inputType="number"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"/>
+<Button
+    android:id="@+id/btnTeste"
+    android:text="Testar"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_center"/>
+    </LinearLayout>
